@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+html {
+  background-image: url("https://cutewallpaper.org/21/blue-website-background/background-images-for-websites-19201200-Background-Images-.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

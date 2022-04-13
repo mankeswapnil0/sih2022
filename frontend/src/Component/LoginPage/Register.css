@@ -1,0 +1,101 @@
+.loginContainer {
+    width: 100vw;
+    height: 40vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://self.staffinggo.in/assets/Assets/Login_Icons/Login_Page_Image.svg");
+    background-repeat: no-repeat;
+}
+.loginBox{
+    background-color: #CEE8EB;
+    width: 30vw;
+    height: 45vh;
+    padding: 2vmax;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #076470 !important;
+    position: absolute;
+    right: 0;
+}
+.signUpContainer {
+    width: 100vw;
+    height: 60vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://self.staffinggo.in/assets/Assets/Login_Icons/Login_Page_Image.svg");
+    background-repeat: no-repeat;
+}
+.signUpBox{
+  background-color: #CEE8EB;
+    width: 30vw;
+    height: 100vh;
+    padding: 2vmax;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    color: #076470 !important;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.signUpForm,.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  margin: 2vmax;
+  padding: 2vmax;
+  transition: all 0.5s;
+}
+.signUpForm > div, .loginForm>div {
+  display: flex;
+  width: 100%;
+  margin: 0.8vmax;
+  align-items: center;
+}
+.signUpForm > div > input, select, option, .loginForm > div > input {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 1vmax cursive;
+  outline: none;
+}
+
+.loginForm > div > svg,.signUpForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginButton, .signUpBtn {
+    border: none;
+    background-color:  #0A8B9A;
+    color: white;
+    font: 300 1vmax "Roboto";
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+  }
+  .loginButton:hover,.signUpBtn:hover {
+    background-color: #076470;
+  }

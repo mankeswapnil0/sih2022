@@ -1,0 +1,81 @@
+.navigation{
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    color: black !important;
+}
+.MuiToolbar-regular p{
+    color: black !important;
+}
+.MuiAppBar-root{
+    background-color: black !important;
+}
+.demo-customized-menu a{
+    text-decoration: none;
+}
+.MuiButton-root{
+    margin-right: 30px !important;
+}
+.socialBtn{
+    border: 1px solid #0268EE !important;
+}
+.socialBtn:hover{
+    background-color: rgb(2, 104, 238) !important;
+    color: white !important;
+}
+.loginBtn{
+    color: #0268EE !important;
+}
+
+/* 
+.navigation{
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    margin-bottom: -5vmax;
+}
+.MuiAppBar-root{
+    background-color: transparent !important;
+    color: white !important;
+}
+.demo-customized-menu a{
+    text-decoration: none;
+}
+.MuiAppBar-root{
+    background-image: url("https://cutewallpaper.org/21/blue-website-background/background-images-for-websites-19201200-Background-Images-.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+}
+.MuiDrawer-docked{
+    background-image: url("https://cutewallpaper.org/21/blue-website-background/background-images-for-websites-19201200-Background-Images-.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+}
+.MuiDrawer-paper{
+    background-image: url("https://cutewallpaper.org/21/blue-website-background/background-images-for-websites-19201200-Background-Images-.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+}
+.MuiButton-root{
+    margin-right: 30px !important;
+}
+.socialBtn{
+    border: 1px solid #0268EE !important;
+}
+.socialBtn:hover{
+    background-color: rgb(2, 104, 238) !important;
+    color: white !important;
+}
+.loginBtn{
+    color: #0268EE !important;
+} */

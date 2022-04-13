@@ -1,0 +1,22 @@
+.coding{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.codingContainer{
+    background-image: url("https://cdn.cbeditz.com/cbeditz/preview/blue-gradient-background-wallpaper-for-website-116145015845v3a0w8bx9.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+.codingCard{
+    background-color:black;
+    border: 3px solid black;
+    margin: 2vmax;
+    border-radius: 20px;
+    transition: all 10s;
+}
+.codingCard:hover{
+    transform: scale(1.05,1.05);
+}
